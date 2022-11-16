@@ -29,6 +29,6 @@
     @endforeach
 </div>
 
-{{ $users->links() }}
+{{ $users->onEachSide(5)->links() }}
 </body>
 </html>

@@ -14,7 +14,7 @@ class Controller extends BaseController
 
     public function index() {
         return view('welcome',[
-            'users' => User::search('')->paginate(15)
+            'users' => User::search('')->paginate(25)
         ]);
     }
 }
